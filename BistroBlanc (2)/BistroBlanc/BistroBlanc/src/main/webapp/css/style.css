@@ -1,0 +1,266 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.w-100 {
+  height: 100vh;
+}
+.myclass {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.reviews {
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 320px;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .about-text {
+    padding-top: 50px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+  padding: 2rem 4rem;
+}
+
+.sec1 {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logoBox {
+  width: 300px;
+  height: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filterBox {
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+.sec2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.boxTtl {
+  margin: 10px 0px;
+  letter-spacing: 2px;
+}
+
+.boxOpt {
+  margin: 5px 0px;
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-size: 0.9rem;
+}
+
+.socialImgAnchore {
+  text-decoration: none;
+}
+
+.socialImg {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.app {
+  width: 146px;
+  height: 38px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.appImg {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.breakLine {
+  margin: 20px 0;
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+
+.sec3 {
+  color: rgb(79, 79, 79);
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+@media all and (max-width: 800px) {
+  .sec1,
+  .sec2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .footer {
+    padding: 1rem 2rem;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .footer {
+    padding: 1rem 1rem;
+  }
+  .filters {
+    margin: 2rem 0 0 0;
+  }
+}
+
+
+.card {
+  width: 18rem;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.myclass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+
+  }
+}
+
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.foody{
+	margin-top:6.5rem;
+}
